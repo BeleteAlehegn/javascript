@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change html content by javascript</title>
+    <link rel="icon" href="belie.png" type="image/x-icon">
+</head>
+<body>
+    <h1>ETech from scratch!</h1>
+
+    <img id="image" style= width:200px src="red.png"></img>
+
+    <p id="ethio">This content can changed by javascript</p>
+
+    <button type="button" onclick="document.getElementById('ethio').style.fontSize='30px'">MaximizeFont</button>
+    <button type="button" onclick="document.getElementById('ethio').style.display='none'">Hide</button>
+    <button type="button" onclick="document.getElementById('ethio').style.display='block'">Show</button>
+    <button type="button" onclick="document.getElementById('image').src='yellow.png'">Yellow</button>
+    <button type="button" onclick="document.getElementById('image').src='red.png'">Red</button>
+    <button type="button" onclick="document.getElementById('ethio').innerHTML='Html content be come changed' ">Change text!</button>
+</body>
+</html>
